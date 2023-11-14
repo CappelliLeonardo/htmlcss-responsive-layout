@@ -26,6 +26,14 @@ html{
     padding: 0 20px;
 }
 
+.container-small{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+/*
+    BUTTON
+*/
 .button{
     border-radius: 50px;
     padding: 5px 20px;
@@ -40,6 +48,13 @@ html{
     background-color: #0084fd;
     color: white;
     font-weight: bold;
+}
+
+.button.violet{
+    background-color: #9792E4;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px ;
 }
 
 /*
@@ -117,7 +132,105 @@ nav ul li a, .my-col a{
     padding-bottom: 20px;
 }
 
+/*
+    SECTION
+ */
 
+.bg-violet-section,.my-col.my-col-50.developement i{
+    background-color:#9792E4 ;
+    padding-bottom: 20px;
+}
+
+.my-col.my-col-50.plan{
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    width: 100%;
+}
+.my-col.my-col-50.developement{
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    line-height: 30px;
+}
+.my-col.my-col-50.plan h2, .my-col.my-col-50.developement h3{
+    padding-bottom: 20px;
+}
+.my-col.my-col-50.developement i{
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.fa-solid.fa-arrow-down{
+    border-radius: 50px;
+}
+
+#arrow-down{
+    padding-bottom: 20px;
+}
+
+/*
+    THIRD SECTION
+ */
+.text-box{
+    text-align: center;
+    line-height: 30px;
+    width: 100%;
+}
+
+.text-box h3{
+    color: #9792E4;
+}
+.text-box h4{
+    font-weight: lighter;
+}
+
+.card-img{
+    width: 200px;
+    height: 200px;
+}
+.img-rounded{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #9792E4;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    color: white;
+}
+.card .card-text{
+    padding: 10px 0;
+}
+
+.card-text{
+    line-height: 30px;
+}
+
+/*
+
+SECTION 
+
+*/
+
+.my-col.bg-color-white.my-col-33{
+    background-color: white;
+    line-height: 30px;
+    text-align: left;
+}
+
+.my-col.bg-color-white.my-col-33 h2, .my-col.bg-color-white.my-col-33 .icon{
+    color: #9792E4;
+}
 
 /*
     MEDIA QUERY
@@ -142,6 +255,16 @@ nav ul li a, .my-col a{
         margin-left: 20px;
         margin-right: 20px;
     }
+
+    .card{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .card-text{
+        width: 70%;
+    }
 }
 
 /*
@@ -160,4 +283,12 @@ nav ul li a, .my-col a{
         display: flex;
     }
 
+    .container-small{
+        display: flex;
+        justify-content: baseline;
+    }
+
+    section{
+        padding-bottom: 20px;
+    }
 }
