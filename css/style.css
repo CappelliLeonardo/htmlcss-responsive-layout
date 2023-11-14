@@ -113,6 +113,10 @@ nav ul li a, .my-col a{
     font-size: 3em;
 }
 
+.my-col.my-col-33 div p{
+    padding-bottom: 20px;
+}
+
 
 
 /*
@@ -155,4 +159,5 @@ nav ul li a, .my-col a{
     .my-col.my-col-66{
         display: flex;
     }
+
 }
