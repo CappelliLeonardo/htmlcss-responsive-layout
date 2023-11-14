@@ -7,6 +7,11 @@
     box-sizing: border-box;
 }
 
+img{
+    width: 100%;
+    display: block;
+}
+
 /*
 GENERAL
 */
@@ -18,4 +23,123 @@ html{
 .container{
     max-width: 1000px;
     margin: 0 auto;
+    padding: 0 20px;
+}
+
+.button{
+    border-radius: 50px;
+    padding: 5px 20px;
+}
+
+.button.lightgrey{
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.button.blue{
+    background-color: #0084fd;
+    color: white;
+    font-weight: bold;
+}
+
+/*
+    
+    HEADER 
+
+*/
+
+header{
+    background-color: #0084fd;
+    color: white;
+}
+
+#main-nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+#main-nav-container nav{
+    display: none;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 5px;
+}
+nav ul li a, .my-col a{
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+/*
+    MAIN
+*/
+
+.my-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.my-col{
+    width: 100%;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.my-col.bg-color{
+    background-color: #B5DDFF;
+}
+
+.my-col div{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.my-col div > *{
+    line-height: 30px;
+}
+
+/*
+    MEDIA QUERY
+*/
+
+
+/*
+    TABLET
+*/
+ @media screen and (min-width:768px) {
+    .my-row{
+        display: flex;
+    }
+
+    .my-col.my-col-66{
+        display: flex;
+    }
+}
+
+/*
+    DESKTOP
+*/
+ @media screen and (min-width:992px) {
+    #main-nav-container nav{
+        display: block;
+    }
+
+    #main-nav-container .hamburger-icon{
+        display: none;
+    }
+
+
+    
+    
 }
