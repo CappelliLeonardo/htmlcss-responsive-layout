@@ -79,8 +79,6 @@ nav ul li a, .my-col a{
     text-decoration: none;
 }
 
-
-
 /*
     MAIN
 */
@@ -105,9 +103,17 @@ nav ul li a, .my-col a{
     padding-right: 20px;
 }
 
-.my-col div > *{
-    line-height: 30px;
+.my-col.my-col-33{
+    text-align: center;
 }
+.my-col.my-col-33 div h3{
+    padding: 10px 0;
+}
+.icon{
+    font-size: 3em;
+}
+
+
 
 /*
     MEDIA QUERY
@@ -118,12 +124,19 @@ nav ul li a, .my-col a{
     TABLET
 */
  @media screen and (min-width:768px) {
+
     .my-row{
         display: flex;
     }
 
     .my-col.my-col-66{
-        display: flex;
+        width: calc(((100% / 3) * 2) - 40px);
+    }
+
+    .my-col{
+        width: calc((100% / 3) - 40px);
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 
@@ -139,7 +152,7 @@ nav ul li a, .my-col a{
         display: none;
     }
 
-
-    
-    
+    .my-col.my-col-66{
+        display: flex;
+    }
 }
