@@ -315,6 +315,20 @@ SECTION
 
 
 /*
+    FOOTER 
+ */
+
+
+.container .container-small-footer div{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+footer{
+    background-color:#333333;
+}
+/*
     MEDIA QUERY
 */
 
