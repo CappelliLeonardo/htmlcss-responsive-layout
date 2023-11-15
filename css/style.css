@@ -232,6 +232,8 @@ SECTION
     color: #9792E4;
 }
 
+
+
 /*
     MEDIA QUERY
 */
@@ -265,6 +267,11 @@ SECTION
     .card-text{
         width: 70%;
     }
+
+    .my-col.bg-color-white.my-col-33{
+        width: calc((100% / 2) - 40px);
+    }
+
 }
 
 /*
@@ -290,5 +297,9 @@ SECTION
 
     section{
         padding-bottom: 20px;
+    }
+
+    .my-col.bg-color-white.my-col-33{
+        width: calc((100% / 3) - 40px);
     }
 }
