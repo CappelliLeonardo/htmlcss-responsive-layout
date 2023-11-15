@@ -118,6 +118,12 @@ nav ul li a, .my-col a{
     padding-right: 20px;
 }
 
+.my-col.bg-color.my-col-66{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .my-col.my-col-33{
     text-align: center;
 }
@@ -245,16 +251,29 @@ SECTION
     display: flex;
     flex-wrap: wrap;
     padding-top: 20px;
+    justify-content: center;
 }
 
 .box-text-66{
     width: 100%;
 }
 .box-img-33{
-    width: 100%;
+    width: 60%;
     text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.quotation-box p{
+    padding: 20px;
+    font-weight: bold;
+    color: #9792E4;
 }
 
+.quotation-box a{
+    text-decoration: none;
+    display: inline-block;
+}
 .box-img-33 .card-img{
     padding: 20px;
 }
@@ -281,14 +300,22 @@ SECTION
 
     .my-col.my-col-66{
         width: calc(((100% / 3) * 2) - 40px);
+        display: flex;
     }
 
+    .my-col.bg-color.my-col-66 div{
+        width: 50%;
+    }
+    .card-phone{
+        display: flex;
+        align-items: flex-end;
+    }
     .my-col{
         width: calc((100% / 3) - 40px);
         margin-left: 20px;
         margin-right: 20px;
     }
-
+    
     .card{
         display: flex;
         justify-content: space-between;
