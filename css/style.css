@@ -43,7 +43,12 @@ html{
     background-color: #FFFFFF;
     color: black;
 }
-
+.button.last-section{
+    background-color: #FFFFFF;
+    color: #9792E4;
+    font-weight: bold;
+    text-decoration: none;
+}
 .button.blue{
     background-color: #0084fd;
     color: white;
@@ -288,6 +293,25 @@ SECTION
     color: #9792E4;
 }
 
+
+/*
+    LAST SECTION 
+*/
+
+.last-section{
+    text-align: center;
+    color: white;
+}
+.last-section a{
+    color: inherit;
+}
+.last-section div{
+    padding: 20px;
+}
+.last-section h2{
+    color: rgb(239, 196, 9);
+    font-size: 3em;
+}
 
 
 /*
