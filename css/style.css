@@ -251,7 +251,8 @@ SECTION
     display: flex;
     flex-wrap: wrap;
     padding-top: 20px;
-    justify-content: center;
+    padding-bottom: 20px;
+    justify-content: left;
 }
 
 .box-text-66{
@@ -259,7 +260,7 @@ SECTION
 }
 .box-img-33{
     width: 60%;
-    text-align: center;
+    text-align: left;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -279,7 +280,12 @@ SECTION
 }
 
 .box-text-66 p{
-    padding-bottom: 10px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+.box-text-66 h2{
+    font-size: 2em;
+    color: #9792E4;
 }
 
 
@@ -330,6 +336,19 @@ SECTION
         width: calc((100% / 2) - 40px);
     }
 
+    .about-us-container{
+        display: flex;
+        align-items: center;
+    }
+
+    .box-text-66{
+        width: 66%;
+    }
+    .box-img-33{
+        width: 33%;
+        text-align:center;
+    }
+    
 }
 
 /*
